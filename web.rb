@@ -7,6 +7,6 @@ get '/' do
 	erb :home
 end
 
-get '/aboutus/' do
+get '/aboutus' do
 	erb :aboutus
 end
