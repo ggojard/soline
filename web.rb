@@ -5,6 +5,6 @@ set :public_folder, 'public'
 
 get '/' do
 	erb :home
-get '/aboutus' do
+get 'aboutus' do
   	erb :aboutus
 end
