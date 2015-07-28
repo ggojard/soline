@@ -7,24 +7,47 @@
 <meta name="author" content="">
 
 <!-- Le styles -->
-<link href="/css/bootstrap.css" rel="stylesheet">
+<!-- <link href="/css/bootstrap.css" rel="stylesheet"> -->
 <link href="/css/font-awesome.css" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-default">
+<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="fa fa-home"></i>Sass</a></li>
+        <li><a href="badges.html"><i class="fa fa-comment"></i>Components</a></li>
+        <li><a href="collapsible.html"><i class="fa fa-desktop"></i>Javascript</a></li>
+        <li><a href="mobile.html"><i class="fa fa-check-square"></i>Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html"><i class="fa fa-home"></i>Sass</a></li>
+        <li><a href="badges.html"><i class="fa fa-comment"></i>Components</a></li>
+        <li><a href="collapsible.html"><i class="fa fa-desktop"></i>Javascript</a></li>
+        <li><a href="mobile.html"><i class="fa fa-check-square"></i>Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!--  <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
 
-          <span class="icon-bar"><i class="fa fa-home"></i></span>
-          <span class="icon-bar"><i class="fa fa-comment"></i></span>
-          <span class="icon-bar"><i class="fa fa-desktop"></i></span>
-          <span class="icon-bar"><i class="fa fa-check-square"></i></span>
-          <span class="icon-bar"><i class="fa fa-cloud"></i></span>
-          <span class="icon-bar"><i class="fa fa-pie-chart"></i></span>
+
+
+
+
+<i class="fa fa-cloud"></i>
+<i class="fa fa-pie-chart"></i>
 
         </button>
         <a class="navbar-brand" href="#">Brand</a>
@@ -47,18 +70,21 @@
     </div>
   </nav>
 
-<div class="navbar navbar-fixed-bottom">
+<div class="navbar navbar-default navbar-fixed-bottom">
   <a href="aboutus">
     <i class="fa fa-question-circle"></i>
     About us</a> |
     Copyright 2015
-</div>
+</div> -->
 
 <%=yield%>
 
-<script src="/js/bootstrap.min.js"></script>
-</body>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
 </html>
 
 
