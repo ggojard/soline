@@ -22,3 +22,7 @@ end
 get '/dashboard' do
 	erb :dashboard
 end
+
+get '/task' do
+	erb :task
+end
