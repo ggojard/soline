@@ -10,3 +10,15 @@ end
 get '/aboutus' do
 	erb :aboutus
 end
+
+get '/comment' do
+	erb :comment
+end
+
+get '/cloud' do
+	erb :cloud
+end
+
+get '/dashboard' do
+	erb :dashboard
+end
